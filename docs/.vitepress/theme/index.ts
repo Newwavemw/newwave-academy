@@ -9,7 +9,7 @@ import "anu-vue/dist/style.css";
 import "@anu-vue/preset-theme-default/dist/style.css";
 import RegisterSW from "./components/RegisterSW.vue";
 import Feature from "./components/uno/Feature.vue";
-// import "./styles.css";
+import "./styles.css";
 
 export default {
   ...DefaultTheme,

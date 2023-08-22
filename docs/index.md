@@ -25,3 +25,10 @@ features:
   details: UI Framework with multiple components and composables built on top of UnoCSS.
 ---
 
+<!-- Custom home layout -->
+<div class="custom-layout">
+  <h1>🏀</h1>
+  <h1>Custom Layout</h1>
+  <p>This section was added using plain HTML and CSS.</p>
+  <a href="/" target="_self" class="btn">Source Code</a>
+</div>
