@@ -39,7 +39,11 @@ export default withPwa(
       ],
       [
         "link",
-        { rel: "apple-touch-icon", href: "/pwa-192x192.png", sizes: "192x192" },
+        {
+          rel: "apple-touch-icon",
+          href: "/assets/favicons/favicon_192x192.png",
+          sizes: "192x192",
+        },
       ],
     ],
     pwa: {
@@ -87,7 +91,7 @@ export default withPwa(
     themeConfig: {
       logo: "/assets/favicons/favicon.svg",
       footer: {
-        message: "Released under the MIT License.",
+        message: `Released under the MIT License. v${version}`,
         copyright: "Copyright © 2023 Newwave Group, All rights reserved.",
       },
       search: {
@@ -170,10 +174,6 @@ function nav() {
         { text: "Newwave HQ", link: "https://newwave.mw/" },
         { text: "Partners", link: "https://newwave.mw/partners" },
       ],
-    },
-    {
-      text: version,
-      link: "/",
     },
   ];
 }

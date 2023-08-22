@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Newwave Academy
-  text: Learn. Share. Grow
+  text: Malawi to the world
   tagline: Creating more ways to discover and learn about the music industry.
   actions:
     - theme: brand
@@ -20,7 +20,5 @@ features:
   details: UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed with flexibility and performance in mind.
 - title: "Anu: DX focused utility based vue component library"
   details: UI Framework with multiple components and composables built on top of UnoCSS.
-- title: "Blog Demo included"
-  details: Posts and Authors as sample predefinded. Composables for accessing data included.
 ---
 
