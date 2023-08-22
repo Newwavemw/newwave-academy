@@ -1,15 +1,54 @@
 {
-  "name": "vitepress-template",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "newwave-academy",
+  "version": "0.0.0",
+  "description": "Creating more ways to discover and learn about the music industry.",
   "license": "MIT",
-  "devDependencies": {
-    "vitepress": "1.0.0-alpha.29",
-    "vue": "3.2.45"
-  },
+  "author": "Newwave Group",
+  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
-  }
+    "serve": "vitepress serve docs",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "Vitepress",
+    "Starter",
+    "UnoCSS",
+    "Anu"
+  ],
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.40.2",
+    "@anu-vue/preset-theme-default": "^0.15.2",
+    "@iconify-json/bx": "^1.1.6",
+    "@iconify-json/fluent-emoji": "^1.1.13",
+    "@iconify-json/heroicons-outline": "^1.1.6",
+    "@iconify-json/logos": "^1.1.33",
+    "@types/node": "^20.4.5",
+    "@unocss/preset-icons": "^0.55.2",
+    "@unocss/preset-uno": "0.55.2",
+    "@vite-pwa/vitepress": "^0.2.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vueuse/core": "^10.2.1",
+    "anu-vue": "^0.15.2",
+    "conventional-changelog-cli": "^3.0.0",
+    "date-fns": "^2.30.0",
+    "eslint": "^8.45.0",
+    "flexsearch": "^0.7.31",
+    "fs-extra": "^11.1.1",
+    "gray-matter": "^4.0.3",
+    "https-localhost": "^4.7.1",
+    "markdown-it": "^13.0.1",
+    "typescript": "^5.1.6",
+    "unocss": "^0.55.2",
+    "vite-plugin-pwa": "^0.16.4",
+    "vitepress": "1.0.0-rc.4",
+    "vitepress-sidebar": "^1.10.1",
+    "vue": "^3.3.4",
+    "workbox-window": "^7.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "type": "module"
 }
