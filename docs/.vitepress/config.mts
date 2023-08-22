@@ -7,9 +7,17 @@ import { withPwa } from "@vite-pwa/vitepress";
 export default withPwa(
   defineConfig({
     base: "/",
+    lang: "en-UK",
     title: "Newwave Academy",
     description:
       "Creating more ways to discover and learn about the music industry.",
+    // lastUpdated: {
+    //   text: 'Updated at',
+    //   formatOptions: {
+    //     dateStyle: 'short',
+    //     timeStyle: 'medium'
+    //   }
+    // },
     cleanUrls: true,
     head: [
       ["meta", { name: "theme-color", content: "#2e2e2e" }],
@@ -89,7 +97,7 @@ export default withPwa(
       },
     },
     themeConfig: {
-      logo: "/assets/favicons/favicon.svg",
+      // logo: "/assets/favicons/favicon.svg",
       footer: {
         message: `Released under the MIT License. v${version}`,
         copyright: "Copyright © 2023 Newwave Group, All rights reserved.",
@@ -124,7 +132,7 @@ export default withPwa(
         collapseDepth: 2,
         // sortByFileName: ['first.md', 'second', 'third.md'],
         // excludeFiles: ['first.md', 'secret.md'],
-        excludeFolders: ["blog", "en", "mw"],
+        // excludeFolders: ["blog"],
         // includeDotFiles: false,
         // includeRootIndexFile: false,
         // includeFolderIndexFile: false,
@@ -133,10 +141,6 @@ export default withPwa(
         // useFolderLinkAsIndexPage: false,
         // folderLinkNotIncludesFileName: false
       }),
-      blog: {
-        title: "My Blog",
-        description: "Some articles for sample Blog",
-      },
     },
     vite: {
       plugins: [
