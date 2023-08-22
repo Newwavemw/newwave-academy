@@ -2,27 +2,18 @@
 import { onBeforeMount, ref } from 'vue'
 
 const offlineReady = ref(false)
-const needRefresh = ref(false)
-
-let updateServiceWorker: (() => Promise<void>) | undefined
-
 const onOfflineReady = () => {
   offlineReady.value = true
 }
-const onNeedRefresh = () => {
-  needRefresh.value = true
-}
 const close = async () => {
   offlineReady.value = false
-  needRefresh.value = false
 }
 
 onBeforeMount(async () => {
   const { registerSW } = await import('virtual:pwa-register')
-  updateServiceWorker = registerSW({
+  registerSW({
     immediate: true,
     onOfflineReady,
-    onNeedRefresh,
     onRegistered() {
 
       console.info('Service Worker registered')
@@ -35,23 +26,15 @@ onBeforeMount(async () => {
 </script>
 
 <template>
-  <template v-if="offlineReady || needRefresh">
+  <template v-if="offlineReady">
     <div
       class="pwa-toast"
       role="alertdialog"
       aria-labelledby="pwa-message"
     >
       <div id="pwa-message" class="mb-3">
-        {{ offlineReady ? 'App ready to work offline' : 'New content available, click the reload button to update.' }}
+        App ready to work offline
       </div>
-      <button
-        v-if="needRefresh"
-        type="button"
-        class="pwa-refresh"
-        @click="updateServiceWorker?.()"
-      >
-        Reload
-      </button>
       <button
         type="button"
         class="pwa-cancel"
@@ -75,7 +58,7 @@ onBeforeMount(async () => {
         z-index: 100;
         text-align: left;
         box-shadow: 3px 4px 5px 0 #8885;
-        background-color: white;
+        background-color: #2e2e2e;
     }
     .pwa-toast #pwa-message {
         margin-bottom: 8px;

@@ -7,14 +7,14 @@ import { anu } from "anu-vue";
 import "uno.css";
 import "anu-vue/dist/style.css";
 import "@anu-vue/preset-theme-default/dist/style.css";
-import ReloadPrompt from "./components/ReloadPrompt.vue";
+import RegisterSW from "./components/RegisterSW.vue";
 import Feature from "./components/uno/Feature.vue";
 
 export default {
   ...DefaultTheme,
   Layout() {
     return h(DefaultTheme.Layout, null, {
-      "layout-bottom": () => h(ReloadPrompt),
+      "layout-bottom": () => h(RegisterSW),
     });
   },
   enhanceApp({ app }: { app: App }) {

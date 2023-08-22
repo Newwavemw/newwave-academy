@@ -54,7 +54,7 @@ export default withPwa(
       manifest: {
         name: "Newwave Academy",
         short_name: "Newwave Academy",
-        theme_color: "#ffffff",
+        theme_color: "#2e2e2e",
         icons: [
           {
             src: "/assets/favicons/favicon_192x192.png",
