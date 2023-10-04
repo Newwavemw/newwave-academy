@@ -57,7 +57,7 @@ onBeforeMount(async () => {
         border-radius: 4px;
         z-index: 100;
         text-align: left;
-        box-shadow: 3px 4px 5px 0 #8885;
+        /* box-shadow: 3px 4px 5px 0 #8885; */
         background-color: #2e2e2e;
     }
     .pwa-toast #pwa-message {
