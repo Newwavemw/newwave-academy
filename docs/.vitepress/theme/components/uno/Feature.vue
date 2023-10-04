@@ -1,9 +1,9 @@
 <template>
   <section>
     <div class="container px-6 py-10 mx-auto">
-      <div class="lg:flex lg:items-center">
-        <div class="w-full space-y-12 lg:w-1/2 ">
-          <div>
+      <!-- <div class="lg:flex lg:items-center">
+        <div class="w-full space-y-12 lg:w-1/2 "> -->
+          <!-- <div>
             <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
               UnoCSS
               <br>Components
@@ -13,9 +13,9 @@
               <span class="inline-block w-3 h-1 ml-1 rounded-full bg-[color:var(--vp-c-brand-dark)]" />
               <span class="inline-block w-1 h-1 ml-1 rounded-full bg-[color:var(--vp-c-brand-dark)]" />
             </div>
-          </div>
+          </div> -->
 
-          <div class="md:flex md:items-start md:-mx-4">
+          <!-- <div class="md:flex md:items-start md:-mx-4">
             <span
               class="inline-block p-2 text-white bg-[color:var(--vp-c-brand-dark)] rounded-xl md:mx-4 dark:text-white dark:bg-[color:var(--vp-c-brand-dark)]"
             >
@@ -99,20 +99,21 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
+        <!-- <div class="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
           <img
             class="w-[28rem] h-[20rem] object-cover xl:w-[34rem] xl:h-[20rem] rounded-full"
             src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80"
             alt=""
           >
         </div>
-      </div>
+      </div> -->
 
       <hr class="border-gray-200 my-12 dark:border-gray-700">
-
-      <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
+      <p>A Newwave Group Initiative</p>
+      <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
+          <div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
         <div class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
           <svg
             class="h-12 text-gray-500 fill-current dark:text-gray-300" xmlns="http://www.w3.org/2000/svg"
@@ -202,6 +203,8 @@
           </svg>
         </div>
       </div>
+        </div>
+      
     </div>
   </section>
 </template>

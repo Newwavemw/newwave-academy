@@ -62,7 +62,7 @@ export default withPwa(
       manifest: {
         name: "Newwave Academy",
         short_name: "Newwave Academy",
-        theme_color: "#2e2e2e",
+        theme_color: "#1b1b1b",
         icons: [
           {
             src: "/assets/favicons/favicon_192x192.png",
@@ -124,8 +124,10 @@ export default withPwa(
         // rootGroupText: 'Contents',
         // rootGroupLink: 'https://github.com/jooy2',
         // rootGroupCollapsed: false,
-        // useTitleFromFileHeading: true,
-        // useTitleFromFrontmatter: true,
+        useTitleFromFileHeading: true,
+        capitalizeFirst: true,
+        capitalizeEachWords: true,
+        useTitleFromFrontmatter: true,
         hyphenToSpace: true,
         underscoreToSpace: true,
         collapsed: true,
@@ -135,10 +137,10 @@ export default withPwa(
         // excludeFolders: ["blog"],
         // includeDotFiles: false,
         // includeRootIndexFile: false,
-        // includeFolderIndexFile: false,
+        // includeFolderIndexFile: true,
         // includeEmptyFolder: false,
         // convertSameNameSubFileToGroupIndexPage: false,
-        // useFolderLinkAsIndexPage: false,
+        useFolderTitleFromIndexFile: true,
         // folderLinkNotIncludesFileName: false
       }),
     },

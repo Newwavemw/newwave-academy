@@ -1,9 +1,13 @@
-Guide Overview
+# NAVIGATING THE MUSIC INDUSTRY IN MALAWI
 
-Vitepress sample with
+last updated: 
 
-* UnoCSS
-* ANU
-* Blog (Posts, Authors)
+## COPYRIGHT
 
-configured.
+## DISTRIBUTION
+
+## PUBLISHING
+
+## REVENUE DIVERSIFICATION
+
+<Feature/>
