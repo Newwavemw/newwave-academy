@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Learn
-      link: /guide/
+      link: /en/guide/
     - theme: alt
       text: Donate
       link: /donate/
