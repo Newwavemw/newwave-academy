@@ -1,27 +1,33 @@
 ---
 layout: home
 
+title: Newwave Academy
+description: Creating more ways to discover and learn about the music industry.
+
 hero:
   name: Newwave Academy
   # text: Malawi to the world
   tagline: Creating more ways to discover and learn about the music industry.
   actions:
     - theme: brand
-      text: Learn
+      text: Learn in English
       link: /en/guide/
     - theme: alt
-      text: Donate
-      link: /donate/
+      text: Learn in Tumbuka
+      link: /tum/guide/
+    - theme: brand
+      text: Learn in ChiChewa
+      link: /nya/guide/
 
 # features:
-# - icon: ⚡️
-#   title: "VitePress: Designed to be simplicity first"
+# - icon: 
+#   title: "Made in Malawi"
 #   details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
 # - icon: ⚡️ 
-#   title: "UnoCSS: The instant on-demand Atomic CSS engine"
+#   title: "Made for Musicians"
 #   details: UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed with flexibility and performance in mind.
 # - icon: ⚡️
-#   title: "Anu: DX focused utility based vue component library"
+#   title: "Made for the Fans"
 #   details: UI Framework with multiple components and composables built on top of UnoCSS.
 ---
 
