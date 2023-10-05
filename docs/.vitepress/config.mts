@@ -3,7 +3,6 @@ import { defineConfig, HeadConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 import { version } from "../../package.json";
 import { withPwa } from "@vite-pwa/vitepress";
-import { inject } from "@vercel/analytics";
 
 export default withPwa(
   defineConfig({
@@ -39,6 +38,7 @@ export default withPwa(
     },
     /* prettier-ignore */
     head: [
+      ["script", { src: "/_vercel/insights/script.js", defer: true }],
       ["meta", { name: "theme-color", content: "#2e2e2e" }],
       [
         "link",
@@ -72,10 +72,10 @@ export default withPwa(
           sizes: "192x192",
         },
       ],
-      ['meta', { name: 'og:type', content: 'website' }],
-      ['meta', { name: 'og:locale', content: 'en' }],
-      ['meta', { name: 'og:site_name', content: 'Newwave Academy' }],
-      ['meta', { name: 'og:image', content: 'https://d1fdloi71mui9q.cloudfront.net/STekRQnxTZKZCl1qjepd_a12gwhyXPL5X77os' }]
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'en' }],
+    ['meta', { name: 'og:site_name', content: 'Newwave Academy' }],
+    ['meta', { name: 'og:image', content: 'https://d1fdloi71mui9q.cloudfront.net/STekRQnxTZKZCl1qjepd_a12gwhyXPL5X77os' }]
     ],
     pwa: {
       mode: "development",
@@ -247,8 +247,6 @@ export default withPwa(
     },
   })
 );
-
-inject();
 
 function nav() {
   return [

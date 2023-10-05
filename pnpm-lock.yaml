@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@vercel/analytics':
-    specifier: ^1.0.2
-    version: 1.0.2
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -2445,10 +2442,6 @@ packages:
     transitivePeerDependencies:
       - rollup
     dev: true
-
-  /@vercel/analytics@1.0.2:
-    resolution: {integrity: sha512-BZFxVrv24VbNNl5xMxqUojQIegEeXMI6rX3rg1uVLYUEXsuKNBSAEQf4BWEcjQDp/8aYJOj6m8V4PUA3x/cxgg==}
-    dev: false
 
   /@vite-pwa/vitepress@0.2.1(vite-plugin-pwa@0.16.5):
     resolution: {integrity: sha512-57cEZSK86kWI8pTIHe5rochWOGaApPH6jrdjhQy0ufnkYHml7J4xUGV5rHQpJMSWbS4YppwHsKzzltvjNCbg0g==}
