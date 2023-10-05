@@ -30,6 +30,13 @@ export default withPwa(
         link: "/tum/guide/",
       },
     },
+    sitemap: {
+      hostname: "https://learn.newwave.mw",
+      transformItems(items) {
+        return items.filter((item) => !item.url.includes("migration"));
+      },
+    },
+    /* prettier-ignore */
     head: [
       ["meta", { name: "theme-color", content: "#2e2e2e" }],
       [
@@ -40,7 +47,7 @@ export default withPwa(
           type: "image/svg+xml",
         },
       ],
-      ["link", { rel: "alternate icon", href: "assets/favicons/favicon.ico" }],
+      ["link", { rel: "alternate icon", href: "assets/favicons/favicon.png" }],
       [
         "link",
         {
@@ -53,7 +60,7 @@ export default withPwa(
         "meta",
         {
           name: "keywords",
-          content: "PWA, VitePress, workbox, Vite, vite-plugin",
+          content: "PWA, VitePress, workbox, Vite, Newwave",
         },
       ],
       [
@@ -64,6 +71,10 @@ export default withPwa(
           sizes: "192x192",
         },
       ],
+    ['meta', { name: 'og:type', content: 'website' }],
+    ['meta', { name: 'og:locale', content: 'en' }],
+    ['meta', { name: 'og:site_name', content: 'Newwave Academy' }],
+    ['meta', { name: 'og:image', content: 'https://d1fdloi71mui9q.cloudfront.net/STekRQnxTZKZCl1qjepd_a12gwhyXPL5X77os' }]
     ],
     pwa: {
       mode: "development",
@@ -108,7 +119,7 @@ export default withPwa(
       },
     },
     themeConfig: {
-      // logo: "/assets/favicons/favicon.svg",
+      // logo: "/assets/favicons/favicon.png",
       footer: {
         message: `Released under the MIT License. v${version}`,
         copyright: "Copyright © 2023 Newwave Group, All rights reserved.",

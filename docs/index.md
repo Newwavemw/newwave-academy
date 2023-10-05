@@ -18,23 +18,36 @@ hero:
     - theme: brand
       text: Learn in ChiChewa
       link: /nya/guide/
+  image:
+    src: /images/headphones.webp
+    alt: Newwave Academy
 
 # features:
-# - icon: 
-#   title: "Made in Malawi"
-#   details: With Markdown-centered content, it's built to help you focus on writing and deployed with minimum configuration.
-# - icon: ⚡️ 
-#   title: "Made for Musicians"
-#   details: UnoCSS is an atomic-CSS engine instead of a framework. Everything is designed with flexibility and performance in mind.
-# - icon: ⚡️
-#   title: "Made for the Fans"
-#   details: UI Framework with multiple components and composables built on top of UnoCSS.
----
+#   - icon: 📝
+#     title: Resources & Information
+#     details: Creating more ways to discover and learn about the music industry.
 
-<!-- Custom home layout -->
-<!-- <div class="custom-layout">
-  <h1>🏀</h1>
-  <h1>Custom Layout</h1>
-  <p>This section was added using plain HTML and CSS.</p>
-  <a href="/" target="_self" class="btn">Source Code</a>
-</div> -->
+#   - icon: 🚀
+#     title: Ship Fast Sites
+#     details: Fast initial load with static HTML, fast post-load navigation with client-side routing.
+---
+<style>
+
+:root {
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,   #0DA2E3 50%, #0DA2E3 50%);
+  --vp-home-hero-image-filter: blur(40px);
+  
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(60px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(80px);
+  }
+}
+</style>
