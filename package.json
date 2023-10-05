@@ -48,6 +48,7 @@
     "workbox-window": "^7.0.0"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.2",
     "vue": "^3.3.4"
   },
   "type": "module"
