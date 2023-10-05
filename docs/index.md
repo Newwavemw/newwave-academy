@@ -12,7 +12,7 @@ hero:
     - theme: brand
       text: Learn in English
       link: /en/guide/
-    - theme: alt
+    - theme: brand
       text: Learn in Tumbuka
       link: /tum/guide/
     - theme: brand
