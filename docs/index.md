@@ -22,28 +22,26 @@ hero:
     src: /images/headphones.webp
     alt: Newwave Academy
 
-# features:
-#   - icon: 📝
-#     title: Resources & Information
-#     details: Creating more ways to discover and learn about the music industry.
+features:
+  - icon: 📚
+    title: Empowering Your Musical Journey
+    details: Our platform is dedicated to enriching your music industry knowledge, offering valuable resources to guide you through the intricate world of music and copyrights.
 
-#   - icon: 🚀
-#     title: Ship Fast Sites
-#     details: Fast initial load with static HTML, fast post-load navigation with client-side routing.
+  - icon: ⚡
+    title: Lightning-Fast Music Insights
+    details: Our website ensures swift access to essential music industry knowledge. You can seamlessly navigate through our content.
+
+  - icon: 📱
+    title: Access Anywhere, Anytime
+    details: Enjoy the convenience, you can access our rich music education and copyright knowledge. Install it, for offline access to resources, even when you're on the go.
 ---
 <style>
 
 :root {
-  --vp-home-hero-image-background-image: linear-gradient(-45deg,   #0DA2E3 50%, #0DA2E3 50%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #0DA2E3 50%, #0DA2E3 50%);
   
   --vp-home-hero-image-filter: blur(40px);
   
-}
-
-@media (min-width: 340px) {
-  :root {
-    --vp-home-hero-image-filter: blur(40px);
-  }
 }
 
 @media (min-width: 640px) {
