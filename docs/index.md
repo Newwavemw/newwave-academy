@@ -39,6 +39,12 @@ hero:
   
 }
 
+@media (min-width: 340px) {
+  :root {
+    --vp-home-hero-image-filter: blur(10px);
+  }
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(60px);
