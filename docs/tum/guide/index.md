@@ -1,11 +1,15 @@
-# NAVIGATING THE MUSIC INDUSTRY IN MALAWI
+---
+title: Navigating the Music Industry in Malawi
+description: Understanding the basics of copyright is essential for creators in Malawi
+---
+# Navigating the Music Industry in Malawi
 
-## COPYRIGHT
+## Copyright
 
-## DISTRIBUTION
+## Distribution
 
-## PUBLISHING
+## Publishing
 
-## REVENUE DIVERSIFICATION
+## Revenue Diversification
 
 <Feature/>
