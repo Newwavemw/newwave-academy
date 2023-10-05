@@ -35,7 +35,7 @@ hero:
 
 :root {
   --vp-home-hero-image-background-image: linear-gradient(-45deg,   #0DA2E3 50%, #0DA2E3 50%);
-  --vp-home-hero-image-filter: blur(40px);
+  --vp-home-hero-image-filter: blur(10px);
   
 }
 
