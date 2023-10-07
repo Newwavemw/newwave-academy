@@ -11,13 +11,13 @@ hero:
   actions:
     - theme: brand
       text: Learn in English
-      link: /en/guide/
+      link: /en-UK/guide/
     - theme: brand
       text: Learn in Tumbuka
-      link: /tum/guide/
+      link: /tum-MW/guide/
     - theme: brand
       text: Learn in ChiChewa
-      link: /nya/guide/
+      link: /nya-MW/guide/
   image:
     src: /images/headphones.webp
     alt: Newwave Academy
