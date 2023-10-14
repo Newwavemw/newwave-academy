@@ -19,7 +19,7 @@ hero:
       text: Learn in ChiChewa
       link: /nya-MW/guide/
   image:
-    src: /images/headphones.webp
+    src: /images/headphones_blue.webp
     alt: Newwave Academy
 
 features:
@@ -35,7 +35,7 @@ features:
     title: Access Anywhere, Anytime
     details: Enjoy the convenience, you can access our rich music education and copyright knowledge. Install it, for offline access to resources, even when you're on the go.
 ---
-<style>
+<!-- <style>
 
 :root {
   --vp-home-hero-image-background-image: linear-gradient(-45deg, violet , blue );
@@ -55,4 +55,4 @@ features:
     --vp-home-hero-image-filter: blur(80px);
   }
 }
-</style>
+</style> -->
