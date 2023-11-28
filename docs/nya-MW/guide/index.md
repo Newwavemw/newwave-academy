@@ -1,6 +1,6 @@
 ---
 title: Kulondoloza Ntchito Za Oyimba Mu Malawi
-description: Understanding the basics of copyright is essential for creators in Malawi
+description: Kumvetsetsa zoyambira za mphamvu ya umwini ndikofunikira kwa opanga ku Malawi
 ---
 # KULONDOLOZA NTCHITO ZA OYIMBA MU MALAWI
 

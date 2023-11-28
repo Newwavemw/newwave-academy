@@ -1,6 +1,6 @@
 ---
 title: Revenue Diversification in Malawi
-description: Creating more ways to discover and learn about the music industry.
+description: Kupanga njira zambiri zodziwira ndi kuphunzira zamakampani opanga nyimbo.
 ---
 
 # GAWO D: KUCHULUKITSA NJIRA ZOPEZERA PHINDU LA NDALAMA MU MALAWI

@@ -1,5 +1,5 @@
 ---
 title: Copyright Laws in Malawi
-description: Creating more ways to discover and learn about the music industry.
+description: Kupanga njira zambiri zodziwira ndi kuphunzira zamakampani opanga nyimbo.
 ---
 # SECTION A: COPYRIGHT LAWS IN MALAWI
