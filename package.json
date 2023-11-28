@@ -1,6 +1,6 @@
 {
   "name": "newwave-academy",
-  "version": "0.0.0-Alpha",
+  "version": "0.0.1-Alpha",
   "description": "Creating more ways to discover and learn about the music industry.",
   "license": "MIT",
   "author": "Newwave Group",
@@ -15,7 +15,10 @@
     "Vitepress",
     "Starter",
     "UnoCSS",
-    "Anu"
+    "Anu",
+    "Newwave Learn",
+    "Music industry",
+    "Malawi"
   ],
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.18",

@@ -122,8 +122,8 @@ export default withPwa(
     themeConfig: {
       // logo: "/assets/favicons/favicon.png",
       footer: {
-        message: `Released under the MIT License. v${version}`,
-        copyright: "Copyright © 2023 Newwave Group, All rights reserved.",
+        message: ``,
+        copyright: `Copyright © 2023 Newwave Group, All rights reserved. v${version}`,
       },
       search: {
         provider: "local",

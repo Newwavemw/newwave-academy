@@ -1,15 +1,15 @@
 ---
-title: Navigating the Music Industry in Malawi
+title: Kulondoloza Ntchito Za Oyimba Mu Malawi
 description: Understanding the basics of copyright is essential for creators in Malawi
 ---
-# Navigating the Music Industry in Malawi
+# KULONDOLOZA NTCHITO ZA OYIMBA MU MALAWI
 
-## Copyright
+## MPHAMVU YA UMWINI
 
-## Distribution
+## KUFALITSA
 
-## Publishing
+## NSANAMIRA ZA KUSINDIKIZA
 
-## Revenue Diversification
+## NJIRA ZOPINDULIRA
 
 <Feature/>

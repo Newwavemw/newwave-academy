@@ -20,6 +20,24 @@
   font-weight: 600;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Set the background color with alpha channel for transparency */
+  backdrop-filter: blur(
+    8px
+  ); /* Adjust the pixel value for the desired blur effect */
+  z-index: 100;
+}
+
 .custom-layout .btn {
   background-color: var(--vp-button-brand-bg);
   color: var(--vp-button-brand-text);
@@ -63,14 +81,14 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-bg: #ffffff;
+  --vp-c-bg: rgba(255, 255, 255, 0.8);
   --vp-c-bg-alt: #f6f6f7;
   --vp-c-bg-elv: #ffffff;
   --vp-c-bg-soft: #f6f6f7;
 }
 
 .dark {
-  --vp-c-bg: #1a1f22;
+  --vp-c-bg: rgba(0, 0, 0, 0.8);
   --vp-c-bg-alt: #161618;
   --vp-c-bg-elv: #202127;
   --vp-c-bg-soft: #202127;
@@ -321,6 +339,16 @@
   --vp-nav-bg-color: var(--vp-c-bg);
   --vp-nav-screen-bg-color: var(--vp-c-bg);
   --vp-nav-logo-height: 24px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Set the background color with alpha channel for transparency */
+  backdrop-filter: blur(
+    8px
+  ); /* Adjust the pixel value for the desired blur effect */
+  z-index: 100;
 }
 
 .hide-nav {

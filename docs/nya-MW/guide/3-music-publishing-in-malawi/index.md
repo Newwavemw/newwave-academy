@@ -1,6 +1,6 @@
 ---
-title: Music Publishing In Malawi
+title: Nsanamira za kusindikiza ndi kugukitsa nyimbo
 description: Creating more ways to discover and learn about the music industry.
 ---
 
-# SECTION C: Music Publishing In Malawi
+# GAWO C: KUSINDIKIZA NDI KUGULITSA NYIMBO MU MALAWI

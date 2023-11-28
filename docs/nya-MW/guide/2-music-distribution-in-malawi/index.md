@@ -1,5 +1,5 @@
 ---
-title: Music Distribution In Malawi
-description: Creating more ways to discover and learn about the music industry.
+title: KUFALITSA NYIMBO MU MALAWI
+description: Gawo lofalitsa nyimbo ndilofunikira kwambiri ku ntchito ya oyimba muno mu Malawi.
 ---
-# SECTION B: Music Distribution In Malawi
+# GAWO B: KUFALITSA NYIMBO MU MALAWI
