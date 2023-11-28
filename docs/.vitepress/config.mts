@@ -224,7 +224,7 @@ export default withPwa(
     vite: {
       plugins: [
         Unocss({
-          configFile: "../../unocss.config.ts",
+          configFile: "/uno.config.ts",
         }),
       ],
     },
