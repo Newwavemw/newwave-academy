@@ -7,8 +7,8 @@ import { withPwa } from "@vite-pwa/vitepress";
 export default withPwa(
   defineConfig({
     base: "/",
-    lang: "en-UK",
-    title: "Newwave Academy",
+    lang: "en",
+    title: "Nchito Za Manja Anga",
     description:
       "Creating more ways to discover and learn about the music industry.",
     lastUpdated: true,
@@ -16,8 +16,8 @@ export default withPwa(
     locales: {
       root: {
         label: "English",
-        lang: "en-UK",
-        link: "/en-UK/guide/",
+        lang: "en",
+        link: "/en/guide/",
       },
       nya: {
         label: "Chichewa",
@@ -83,8 +83,8 @@ export default withPwa(
       scope: "/",
       includeAssets: ["/assets/favicons/favicon.svg"],
       manifest: {
-        name: "Newwave Academy",
-        short_name: "Newwave Academy",
+        name: "Newwave NZMA",
+        short_name: "Newwave NZMA",
         theme_color: "#1b1b1b",
         icons: [
           {
@@ -128,7 +128,6 @@ export default withPwa(
       search: {
         provider: "local",
       },
-
       socialLinks: [
         { icon: "facebook", link: "https://facebook.com/newwavemw" },
         { icon: "instagram", link: "https://instagram.com/newwavemw" },
@@ -143,8 +142,8 @@ export default withPwa(
       sidebar: generateSidebar([
         {
           documentRootPath: "/docs",
-          scanStartPath: "en-UK/guide",
-          resolvePath: "/en-UK/guide/",
+          scanStartPath: "en/guide",
+          resolvePath: "/en/guide/",
           // rootGroupText: 'Contents',
           // rootGroupLink: 'https://github.com/jooy2',
           // rootGroupCollapsed: false,
