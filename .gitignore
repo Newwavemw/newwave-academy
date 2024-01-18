@@ -42,4 +42,3 @@ pnpm-debug.log*
 # vitepress
 docs/.vitepress/cache
 docs/.vitepress/dist
-pnpm-lock.yaml
