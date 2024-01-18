@@ -1,17 +1,17 @@
 ---
 layout: home
 
-title: Newwave Academy
+title: Nchito Za Manja Anga
 description: Creating more ways to discover and learn about the music industry.
 
 hero:
-  name: Newwave Academy
+  name: NAVIGATING THE MUSIC INDUSTRY IN MALAWI
   # text: Malawi to the world
   tagline: Creating more ways to discover and learn about the music industry.
   actions:
     - theme: brand
       text: Learn in English
-      link: /en-UK/guide/
+      link: /en/guide/
     - theme: brand
       text: Learn in Tumbuka
       link: /tum-MW/guide/
@@ -19,21 +19,21 @@ hero:
       text: Learn in ChiChewa
       link: /nya-MW/guide/
   image:
-    src: /images/headphones_blue.webp
-    alt: Newwave Academy
+    src: /images/Logo.webp
+    alt: Nchito Za Manja Anga
 
 features:
   - icon: 📚
     title: Empowering Your Musical Journey
-    details: Our platform is dedicated to enriching your music industry knowledge, offering valuable resources to guide you through the intricate world of music and copyrights.
+    details: Our platform is dedicated to enriching your music industry knowledge.
 
   - icon: ⚡
     title: Lightning-Fast Music Insights
-    details: Our website ensures swift access to essential music industry knowledge. You can seamlessly navigate through our content.
+    details: Our website ensures swift access to essential music industry knowledge.
 
   - icon: 📱
     title: Access Anywhere, Anytime
-    details: Enjoy the convenience, you can access our rich music education and copyright knowledge. Install it, for offline access to resources, even when you're on the go.
+    details: Install it, for offline access to resources, even when you're on the go.
 ---
 <!-- <style>
 
