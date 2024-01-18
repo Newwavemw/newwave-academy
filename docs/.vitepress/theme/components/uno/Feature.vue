@@ -115,10 +115,12 @@
       <div
         class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"
       >
-        <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-3">
-          <div
-            class="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1"
-          >
+        <!-- Outer Grid Container -->
+        <div
+          class="grid items-center justify-center grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-8"
+        >
+          <!-- Inner Grid Items -->
+          <div class="flex items-center justify-center col-span-1">
             <svg
               class="h-12 text-gray-500 fill-current dark:text-gray-300"
               viewBox="0 0 266 100"
@@ -139,9 +141,7 @@
               </defs>
             </svg>
           </div>
-          <div
-            class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"
-          >
+          <div class="flex items-center justify-center col-span-1">
             <svg
               class="h-12 text-gray-500 fill-current dark:text-gray-300"
               viewBox="0 0 266 100"
@@ -162,9 +162,7 @@
               </defs>
             </svg>
           </div>
-          <div
-            class="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"
-          >
+          <div class="flex items-center justify-center col-span-1">
             <svg
               class="h-12 text-gray-500 fill-current dark:text-gray-300"
               viewBox="0 0 266 100"
