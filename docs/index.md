@@ -33,7 +33,7 @@ features:
 
   - icon: 📱
     title: Access Anywhere, Anytime
-    details: Install it, for offline access to resources, even when you're on the go.
+    details: Install it, for offline access to our valuable resources.
 ---
 <!-- <style>
 
