@@ -1,60 +1,52 @@
 <script setup lang="ts">
-import { onBeforeMount, ref } from 'vue'
+import { onBeforeMount, ref } from "vue";
 
-const offlineReady = ref(false)
+const offlineReady = ref(false);
 const onOfflineReady = () => {
-  offlineReady.value = true
-}
+  offlineReady.value = true;
+};
 const close = async () => {
-  offlineReady.value = false
-}
+  offlineReady.value = false;
+};
 
 onBeforeMount(async () => {
-  const { registerSW } = await import('virtual:pwa-register')
-  
+  const { registerSW } = await import("virtual:pwa-register");
+
   // Register the service worker
   const { waiting } = registerSW({
     immediate: true,
     onOfflineReady,
     onRegistered() {
-      console.info('Service Worker registered')
+      // console.info('Service Worker registered')
     },
     onRegisterError(e) {
-      console.error('Service Worker registration error!', e)
+      // console.error('Service Worker registration error!', e)
     },
-  })
+  });
 
   // Listen for service worker updates
   if (waiting) {
-    waiting.addEventListener('statechange', (event) => {
-      if (event.target.state === 'activated') {
+    waiting.addEventListener("statechange", (event) => {
+      if (event.target.state === "activated") {
         // A new service worker has been activated, prompt the user to refresh
-        if (confirm('A new version of the app is available. Do you want to refresh?')) {
-          window.location.reload()
+        if (
+          confirm(
+            "A new version of the app is available. Do you want to refresh?"
+          )
+        ) {
+          window.location.reload();
         }
       }
-    })
+    });
   }
-})
+});
 </script>
 
 <template>
   <template v-if="offlineReady">
-    <div
-      class="pwa-toast"
-      role="alertdialog"
-      aria-labelledby="pwa-message"
-    >
-      <div id="pwa-message" class="mb-3">
-        App ready to work offline
-      </div>
-      <button
-        type="button"
-        class="pwa-cancel"
-        @click="close"
-      >
-        Close
-      </button>
+    <div class="pwa-toast" role="alertdialog" aria-labelledby="pwa-message">
+      <div id="pwa-message" class="mb-3">App ready to work offline</div>
+      <button type="button" class="pwa-cancel" @click="close">Close</button>
     </div>
   </template>
 </template>
