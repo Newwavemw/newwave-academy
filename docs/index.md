@@ -12,9 +12,9 @@ hero:
     - theme: brand
       text: Learn in English
       link: /en/guide/
-    - theme: brand
-      text: Learn in Tumbuka
-      link: /tum-MW/guide/
+    # - theme: brand
+    #   text: Learn in Tumbuka
+    #   link: /tum-MW/guide/
     - theme: brand
       text: Learn in ChiChewa
       link: /nya-MW/guide/
