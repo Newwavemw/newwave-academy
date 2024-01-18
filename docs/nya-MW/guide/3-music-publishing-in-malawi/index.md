@@ -1,5 +1,5 @@
 ---
-title: Nsanamira za kusindikiza ndi kugukitsa nyimbo
+title: KUSINDIKIZA NDI KUGULITSA NYIMBO MU MALAWI
 description: Kupanga njira zambiri zodziwira ndi kuphunzira zamakampani opanga nyimbo.
 ---
 

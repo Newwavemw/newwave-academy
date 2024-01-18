@@ -1,5 +1,5 @@
 ---
-title: Copyright Laws in Malawi
+title: MPHAMVU YA UMWINI MU MALAWI
 description: Kupanga njira zambiri zodziwira ndi kuphunzira zamakampani opanga nyimbo.
 ---
-# SECTION A: COPYRIGHT LAWS IN MALAWI
+# GAWO A: MPHAMVU YA UMWINI MU MALAWI
