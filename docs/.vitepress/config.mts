@@ -29,6 +29,7 @@ export default withPwa(
     /* prettier-ignore */
     head: [
       ["script", { src: "/_vercel/insights/script.js", defer: true }],
+      ["script", { src: "https://analytics.newwave.mw/pulse.js", "data-website-id": "85d96ff6-4166-4873-9402-b1fc646c3683" }],
       ["meta", { name: "theme-color", content: "#2e2e2e" }],
       [
         "link",
